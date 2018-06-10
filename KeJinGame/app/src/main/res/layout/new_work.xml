@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8EE5EE"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/panel"
+        android:gravity="center"
+        android:text="打工是不可能打工的"
+        android:textColor="#FFF68F"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="10sp"
+        android:gravity="center"
+        android:src="@mipmap/btn_back"
+        android:onClick="backMain_work"
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/WorkButtonStyle"
+            android:id="@+id/DoBrick"
+            android:text="开始搬砖"
+            android:onClick="BeginBrick"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/WorkButtonStyle"
+            android:text="兼职打工"
+            android:id="@+id/DoWork"
+            android:onClick="BeginWork"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/WorkButtonStyle"
+            android:id="@+id/DoSteal"
+            android:text="开始偷车"
+            android:onClick="BeginSteal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/WorkButtonStyle"
+            android:id="@+id/DoCode"
+            android:onClick="BeginCode"
+            android:text="码农人生"
+            />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/DoGamble"
+            android:text="靠赌维持生活"
+            android:onClick="BeginGamble"
+            style="@style/WorkButtonStyle"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:text="工作说明：
+搬砖->消耗3个月时间，根据力量随机获得金钱
+兼职->消耗3个月时间，根据体质随机获得金钱
+编码->消耗3个月时间，根据智力体质获得金钱
+偷车->消耗时间随机，根据幸运和敏捷决定金钱
+赌博->消耗时间随机，根据幸运决定金钱"/>
+    </LinearLayout>
+

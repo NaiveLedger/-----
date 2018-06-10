@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/endingBack"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/endingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/panel"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFF68F"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@mipmap/btn_back"
+            android:onClick="backToStart"
+            android:layout_marginTop="5sp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/N1Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+        />
+    <TextView
+    android:id="@+id/N2Line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/MainCharStyle1"
+    />
+    <TextView
+        android:id="@+id/N3Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+
+        />
+    <TextView
+        android:id="@+id/N4Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+
+        />
+    <TextView
+        android:id="@+id/N5Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+
+        />
+    <TextView
+        android:id="@+id/N6Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+
+        />
+    <TextView
+        android:id="@+id/N7Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+
+        />
+    <TextView
+        android:id="@+id/N8Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MainCharStyle1"
+
+        />
+</LinearLayout>

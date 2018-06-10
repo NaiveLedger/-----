@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">氪金岁月</string>
+    <string name="money_to_strong">→氪金变强</string>
+    <string name="money_strong">氪金变强</string>
+    <string name="mission">→做任务</string>
+    <string name="random">随机</string>
+    <string name="challenge">→结局一览</string>
+
+    <string name="new_life">开始新人生</string>
+    <string name="toWork">→开始工作</string>
+    <string name="toSave">保存存档←</string>
+    <string name="toLoad">读取存档←</string>
+    <string name="title_new_game_main">游戏主界面</string>
+    <string name="load_save">载入存档</string>
+    <string name="temp">待开发</string>
+    <string name="music">音乐设置←</string>
+    <string name="require_name">请输入你的大名：</string>
+    <string name="click_for_input">    点击此处输入名字</string>
+    <string name="back_main">返回主界面</string>
+    <string name="confirm">确定</string>
+    <string name="upload_data">上传数据</string>
+    <string name="luck">运气</string>
+    <string name="power">力量</string>
+    <string name="speed">敏捷</string>
+    <string name="corporeity">体质</string>
+    <string name="wit">智力</string>
+    <string name="next_year">下一年->-></string>
+    <string name="tname_loser">穷屌丝</string>
+</resources>
